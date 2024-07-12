@@ -147,7 +147,8 @@ hr {
   padding: 0 8px;
 }
 @media screen and (max-width: 980px) {
-  .containner222 {
+  #footer-area {
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 420px) {
@@ -156,7 +157,7 @@ hr {
   }
   .containner222 {
     flex-direction: column;
-    padding: 45px 0;
+    /* padding: 45px 0; */
     text-align: center;
     gap: 40px;
   }

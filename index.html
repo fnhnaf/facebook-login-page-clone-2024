@@ -22,9 +22,18 @@
         </div>
         <div class="Login-form">
           <form action="">
-            <input type="email" placeholder="Email address or phone number" />
-            <input type="password" placeholder="Password" />
-            <input class="login-btn" type="Button" value="Log In" />
+            <input
+              type="email"
+              placeholder="Email address or phone number"
+              required
+            />
+            <input type="password" placeholder="Password" required />
+            <input
+              onclick="clickme()"
+              class="login-btn"
+              type="Button"
+              value="Log In"
+            />
             <a class="forgotpass" href="#">Forgotten password?</a>
             <hr />
             <button class="account-btn" type="button">
@@ -56,5 +65,10 @@
         <p class="meta">Meta © 2024</p>
       </div>
     </footer>
+    <script>
+      function clickme() {
+        alert("You have already account");
+      }
+    </script>
   </body>
 </html>
